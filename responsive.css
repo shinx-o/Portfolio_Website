@@ -1,0 +1,73 @@
+@media only screen and (max-width: 400px) {
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+
+  nav {
+    visibility: hidden;
+  }
+
+  section {
+    padding: 1px;
+  }
+
+  #Home,#About,#Skills,#Projects,#Contact{
+      padding: 1px;
+  }
+
+  .home-heading-container::before,
+  .home-heading-container::after,
+  .heading-container::before,
+  .heading-container::after,
+  .page-content-container::before,
+  .page-content-container::after,
+  .home-pagebottom::before,
+  .pagebottom,
+  .tags,
+  .section-head::before,
+  .contact-form::before,
+  .contact-form::after,
+  .page-end::after,
+  .home-page-upper::before,
+  .home-page-upper::after {
+    font-size: 1em;
+    padding: 1px;
+    margin-left: 1px;
+  }
+
+  .home-page-upper::before{
+    margin-left: 4px;
+  }
+
+  .home-page-upper::after{
+      margin-left: 8px; 
+  }
+
+  .home-content,.about-content,.skills-content,.projects-content,.contact-content{
+      width: 100vw;
+    margin: 0.7% 10px 5px 10px;
+      padding: 2px 5px;
+  }
+
+  .page-content{
+      width: 100%;
+      margin: 1px;
+      padding: 1px;
+  }
+
+  .home-intro-text{
+      font-size: 1.1em;
+  }
+
+  .my-name{
+      font-size: 2em;
+  }
+
+  .headings{
+      font-size: 1.8em;
+  }
+
+
+
+} /* media query ends*/
